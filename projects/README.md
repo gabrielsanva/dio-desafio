@@ -3,6 +3,7 @@
 ## Genius: a memory game 🧠
 
 [💻 Repository on GitHub / Repositório no GitHub](https://github.com/gabrielsanva/genius_memory_game)
+
 [🎮 Click Here To Play / Clique Aqui Para Jogar](https://genius-gabrielsanva.vercel.app/)
 
 ### English
