@@ -19,3 +19,9 @@ Olá, pessoal. Este é um simples jogo de memória feito com HTML, CSS/Bootstrap
 [💻 Repository on GitHub / Repositório no GitHub](https://github.com/gabrielsanva/jogo_da_velha)
 
 [🎮 Click Here To Play / Clique Aqui Para Jogar](https://jogo-da-velha-gabrielsanva.vercel.app/)
+
+### English
+I made this little project to train mainly my JavaScript skills. It's made with pure JavaScript, HTML and a bit of Bootstrap, just to make it look a little nicer. I think the cool thing about this project is that the algorithm is generic enough to handle a board of any size. Feel free to use the create_board() function. Have a good time.
+
+### Português
+Eu fiz esse pequeno projeto para treinar principalmente minhas habilades em JavaScript. Ele é feito com JavaScript puro, HTML e um pouco de Bootstrap, apenas para tornar a aparência um pouco mais agradável. Eu acho que o legal deste projeto é que o algoritmo é genérico o suficiente para lidar com um tabuleiro de qualquer tamanho. Sinta-se a vontade para utilizar a função create_board(). Divirta-se.
