@@ -25,3 +25,16 @@ I made this little project to train mainly my JavaScript skills. It's made with 
 
 ### Português
 Eu fiz esse pequeno projeto para treinar principalmente minhas habilades em JavaScript. Ele é feito com JavaScript puro, HTML e um pouco de Bootstrap, apenas para tornar a aparência um pouco mais agradável. Eu acho que o legal deste projeto é que o algoritmo é genérico o suficiente para lidar com um tabuleiro de qualquer tamanho. Sinta-se a vontade para utilizar a função create_board(). Divirta-se.
+
+## Space Shooter
+
+[💻 Repository on GitHub / Repositório no GitHub](https://github.com/gabrielsanva/space-shooter)
+
+[🎮 Click Here To Play / Clique Aqui Para Jogar](https://space-shooter-gabrielsanva.vercel.app/)
+
+### English
+It is a simple game made with JS, CSS and HTML. Defend your planet and have fun.
+
+
+### Português
+Trata-se de um simples jogo feito com JS, CSS e HTML. Defenda seu planeta e divirta-se.
