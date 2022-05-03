@@ -15,3 +15,7 @@ It is a simple game made with JS, CSS and HTML. Defend your planet and have fun.
 ## Dino-Offiline 🦖 ([Click here](https://github.com/gabrielsanva/dino-offline))
 
 A small imitation of the Google Chrome game.
+
+## Rescue 🚁 ([Click here](https://github.com/gabrielsanva/rescue))
+
+This is a simple game where you have to rescue your friends on the ground while fighting enemies.
