@@ -51,3 +51,11 @@ Ao definirmos atribuímos "display:flex" à um dado elemento, tornamos todos os 
 - nowrap (padrão): não permite a quebra da linha
 - wrap: permite a quebra de linha assim que um dos flex itens não puder ser mais compactado
 - wrap-reverse: semelhante ao wrap, porém o item que não puder ser mais compactado é "jogado" na direção contrária, isto é, para cima
+
+### flex-flow
+
+É uma atalho para as propriedades flex-derection e flex-wrap, portanto em termos de resultados de exibição, não há diferença entre usa o flex-flow somente ou usar o flew-wrap combinado ao flex-derection.
+
+### justify-content
+
+Propriedade que se encarrega de alinhar os itens dentro do container de acordo com a direção pretendida e trata da distribuição de espaçamento entre eles, todavia essa propriedade não se aplica caso o elemento ocupa 100% do container
