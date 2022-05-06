@@ -59,3 +59,7 @@ Ao definirmos atribuímos "display:flex" à um dado elemento, tornamos todos os 
 ### justify-content
 
 Propriedade que se encarrega de alinhar os itens dentro do container de acordo com a direção pretendida e trata da distribuição de espaçamento entre eles, todavia essa propriedade não se aplica caso o elemento ocupa 100% do container
+
+### align-itens
+
+Trata do alinhamento dos flex itens de acordo com o eixo do container, funcionando de modo diferente quando os itens estão em linhas ou em colunas.

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignitens</title>
+    <style>
+        .container {
+            border: 1px solid black;
+            max-width: 400px;
+            height: 100px;
+            display: flex;
+        }
+
+        .item {
+            background-color: aqua;
+            margin: 3px;
+            text-align: center;
+
+        }
+
+        .flex-end {
+            align-items: flex-end;
+        }
+
+        .flex-start {
+            align-items: flex-start;
+        }
+
+        .center {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container flex-start">
+        <div class="item">item 1</div>
+        <div class="item">segundo item que estará presente nesse conjunto de três itens</div>
+        <div class="item">3</div>
+    </div>
+    <div class="container flex-end">
+        <div class="item">item 1</div>
+        <div class="item">segundo item que estará presente nesse conjunto de três itens</div>
+        <div class="item">3</div>
+    </div>
+    <div class="container center">
+        <div class="item">item 1</div>
+        <div class="item">segundo item que estará presente nesse conjunto de três itens</div>
+        <div class="item">3</div>
+    </div>
+
+
+</body>
+
+</html>
