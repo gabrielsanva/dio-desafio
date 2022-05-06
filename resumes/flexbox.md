@@ -37,20 +37,11 @@ Ao definirmos atribuímos "display:flex" à um dado elemento, tornamos todos os 
 
 ### flex-derection
 
-É propriedade que estabelece o eixo principal do container, definindo a direção que os flex itens são colocados dentro do flex container. Seus valores podem ser:
-
-- row (padrão): alinha os itens na horizontal da esquerda para a direita
-- row-reverse: alinha os itens na horizontal da direita para a esquerda
-- column: alinha os itens na vertical de cima para baixo
-- column-reverse: alinha os itens na vertical de baixa para cima
+É propriedade que estabelece o eixo principal do container, definindo a direção que os flex itens são colocados dentro do flex container.
 
 ### flex-wrap
 
-É propriedade que define se os itens devem ou não quebrar a linha. Por padrão não quebram a linha, fazendo com que os flex itens sejam compactados além do limite do conteúdo. Seus valores podem ser:
-
-- nowrap (padrão): não permite a quebra da linha
-- wrap: permite a quebra de linha assim que um dos flex itens não puder ser mais compactado
-- wrap-reverse: semelhante ao wrap, porém o item que não puder ser mais compactado é "jogado" na direção contrária, isto é, para cima
+É propriedade que define se os itens devem ou não quebrar a linha. Por padrão não quebram a linha, fazendo com que os flex itens sejam compactados além do limite do conteúdo.
 
 ### flex-flow
 
@@ -63,3 +54,33 @@ Propriedade que se encarrega de alinhar os itens dentro do container de acordo c
 ### align-itens
 
 Trata do alinhamento dos flex itens de acordo com o eixo do container, funcionando de modo diferente quando os itens estão em linhas ou em colunas.
+
+### align-content
+
+Propriedade responsável por tratar o alinhamento das linhas do container em relação ao eixo vertical do container. Para esse propriedade seja aplicada é necessário que o container utileze quebra de linha e a altura do container deve ser maior que a soma das linhas dos itens.
+
+## Flex item
+
+### flex-grow
+
+Propriedade que define a proporcionalidade de crescimento dos itens, respeitando o tamnaho de seus conteúdos internos. Caso tenhamos adicionado justify-content ao nosso flex containe, ele funcionará somente se o flex-grow for igual a zero.
+
+### flex-basis
+
+Propriedade que define o tamanho inicial de um flex item.
+
+### flex-shrink
+
+Propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item
+
+### flex
+
+É um propriedade atalho para flex-grow, flex-shrink e flex-basis
+
+### order
+
+propriedade que pode ser utilizada para alterar a ordem de exibição dos itens (sem necessariamente ter que apresentar na ordem que está presente no HTML ou na ordem exatamente inversa)
+
+### align-self
+
+propriedade de que serve para determinar alinhamento individual de uma dado flex item
